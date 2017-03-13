@@ -49,12 +49,23 @@ body {
 
 .navbar-inverse .navbar-nav .open .dropdown-menu > li > a,
 .navbar-inverse .navbar-nav .open .dropdown-menu {
-    background-color: #303F9F;;
+    background-color: #303F9F;
     color:#eeeeee;
 }
 
 .navbar-inverse .navbar-nav .open .dropdown-menu> li> a:hover {
     color:#000000;
+}
+
+.navbar-inverse .navbar-toggle,
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus{
+    border: none;
+    background-color: #303F9F;
+}
+
+.navbar-inverse .navbar-form .checkbox-inline {
+    color: #fff;
 }
 
 
